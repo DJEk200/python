@@ -1,0 +1,7 @@
+print('Введите Имя')
+name = input()
+print('Введите Фамилию')
+surname = input()
+print("Введите Ваш возраст")
+age = input()
+print(f'Фамилия: {surname} Имя: {name} Возраст: {age} ')
