@@ -1,0 +1,9 @@
+time = int(input())
+clock = time // 3600 % 24
+min = (time % 3600) // 60
+sec = time % 60
+m1 = min // 10
+m2 = min % 10
+s1 = sec // 10
+s2 = sec % 10
+print(clock, ':', m1, m2, ':', s1, s2, sep='')
