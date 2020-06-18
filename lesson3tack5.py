@@ -2,7 +2,7 @@ def my_sum():
     end = True
     sum_result = 0
 
-    while end == True:
+    while end:
         number = input('Введите числа через пробел или нажмите Q для выхода: ').upper()
         numbers = number.split()
         result = 0
